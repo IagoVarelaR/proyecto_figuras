@@ -1,4 +1,4 @@
 from lib import cuadrado
 print("Proyecto figuras")
-lado = 4
+lado = 6
 print(f"El area de un cuadrado de lado {lado} es: {cuadrado.get_area(lado)}")
