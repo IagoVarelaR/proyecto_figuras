@@ -1,5 +1,6 @@
 
 from lib.triangulo import get_area as get_area_triangulo
+from lib.circunferencia import get_area
 lado = 6
 area_cuadrado = get_area(lado)
 print(f"El área del cuadrado de lado {lado} es {area_cuadrado}")
@@ -15,4 +16,8 @@ base = 4
 altura = 3
 area_rectangulo = get_area(base, altura)
 print(f"El área del rectángulo de base {base} y altura {altura} es {area_rectangulo}")
+
+radio = 5
+area_circunferencia = get_area(radio)
+print(f"El área de la circunferencia con radio {radio} es {area_circunferencia}")
 
